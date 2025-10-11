@@ -252,11 +252,11 @@
         <div class="products-container">
             <div class="owl-carousel owl-theme">
                 <div class="product-card">
-                    <div class="product-image">💻</div>
+                    <div class="product-image">☕</div>
                     <div class="product-info">
                         <h3 class="product-name">Koproll Coffee</h3>
                         <p class="product-description">Yang jualan Orang Gabut</p>
-                        <button class="view-button">VIEW</button>
+                        <a href="{{route('homeKoproll')}}"  class="view-button">VIEW</a>
                     </div>
                 </div>
 
