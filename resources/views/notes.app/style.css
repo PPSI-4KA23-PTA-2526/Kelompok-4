@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+app-bar {
+  display: block;
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+app-bar h1 {
+  color: #333;
+  font-size: 24px;
+}
+
+note-form {
+  display: block;
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+note-form h2 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.btn-submit {
+  background: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-submit:hover {
+  background: #555;
+}
+
+.notes-section {
+  margin-bottom: 30px;
+}
+
+.notes-section h2 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+note-item {
+  display: block;
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+note-item h3 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+note-item p {
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+note-item .note-date {
+  color: #999;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.note-actions {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn-archive,
+.btn-delete,
+.btn-unarchive {
+  padding: 8px 15px;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.btn-archive {
+  background: #4caf50;
+  color: white;
+}
+
+.btn-unarchive {
+  background: #2196f3;
+  color: white;
+}
+
+.btn-delete {
+  background: #f44336;
+  color: white;
+}
+
+.btn-archive:hover {
+  background: #45a049;
+}
+
+.btn-unarchive:hover {
+  background: #0b7dda;
+}
+
+.btn-delete:hover {
+  background: #da190b;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #ddd;
+  color: #666;
+}
