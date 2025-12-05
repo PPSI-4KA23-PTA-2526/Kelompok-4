@@ -69,28 +69,28 @@
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div class="order-2 md:order-1">
                     <h2 class="font-display text-4xl md:text-5xl font-bold text-stone-800 mb-6">
-                        Tentang Founder
+                        Tentang Koproll
                     </h2>
                     <div class="w-20 h-1 bg-amber-600 mb-8"></div>
                     <h3 class="text-2xl font-semibold text-amber-700 mb-4">Ario Sakti Laurung</h3>
-                    <p class="text-stone-600 text-lg leading-relaxed mb-4">
+                    {{-- <p class="text-stone-600 text-lg leading-relaxed mb-4">
                         Ariosakti Laurung (lahir 1 Oktober 1993) adalah seorang pelawak tunggal (stand-up comedian)
                         berkebangsaan Indonesia. Pria berdarah Bugis ini lahir dan dibesarkan di Jakarta, kemudian
                         merantau ke Malang untuk melanjutkan studi di Fakultas Ilmu Sosial dan Ilmu Politik, Universitas
                         Brawijaya. Di Malang, Ario mulai mengenal stand up comedy pada tahun 2013 dan bergabung dengan
                         komunitas Stand Up Indo Malang serta Stand Up UB. Ia aktif tampil di berbagai acara kampus dan
-                        menjadi salah satu komika andalan di komunitasnya. </p>
-                    <p class="text-stone-600 text-lg leading-relaxed mb-4">
+                        menjadi salah satu komika andalan di komunitasnya. </p> --}}
+                    {{-- <p class="text-stone-600 text-lg leading-relaxed mb-4">
                         Selain sebagai komika, Ario juga memiliki hobi berenang. Ia tergabung dalam UKM Renang
                         Universitas Brawijaya dan beberapa kali menjuarai kejuaraan renang antar universitas. Pada tahun
                         2016, Ario berhasil lolos sebagai satu dari 42 finalis Stand Up Comedy Academy musim kedua (SUCA
                         2) yang diadakan oleh Indosiar melalui audisi di Yogyakarta.
-                    </p>
+                    </p> --}}
                 </div>
                 <div class="order-1 md:order-2">
                     <div class="relative">
                         <div class="absolute bg-amber-100 rounded-2xl transform rotate-3"></div>
-                        <img src="{{ asset('Koproll/arioo.png') }}" alt="Owner"
+                        <img src="{{ asset('images/koproll-logo.png') }}" alt="Owner"
                             class="relative rounded-2xl shadow-2xl w-full object-cover h-[35rem]">
                     </div>
                 </div>
