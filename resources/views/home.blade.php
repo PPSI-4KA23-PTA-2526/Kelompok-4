@@ -239,12 +239,14 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    {{-- <!-- Hero Section -->
     <section id="home" class="hero">
         <h1>WELCOME TO WARUNG POJOK</h1>
         <p>Temukan produk terbaik dengan kualitas premium dan harga terjangkau</p>
         <button class="cta-button">SCROLL</button>
-    </section>
+    </section> --}}
+
+    @include('HeroSection.Banner')
 
     <!-- Products Section -->
     <section id="products" class="products-section">
@@ -252,29 +254,29 @@
         <div class="products-container">
             <div class="owl-carousel owl-theme">
                 <div class="product-card">
-                    <div class="product-image">☕</div>
+                    <img src="{{ asset('images/Koproll-logo.png') }}" alt="Koproll Coffee" class="product-image">
                     <div class="product-info">
                         <h3 class="product-name">Koproll Coffee</h3>
                         <p class="product-description">Yang jualan Orang Gabut</p>
-                        <a href="{{route('homeKoproll')}}"  class="view-button">VIEW</a>
+                        <a href="{{route('home.Koproll')}}"  class="view-button">VIEW</a>
                     </div>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-image">🎧</div>
+                    <img src="{{ asset('images/mieayam-logo.jpg') }}" alt="Mie ayam" class="product-image">
                     <div class="product-info">
                         <h3 class="product-name">Mie Ayam</h3>
                         <p class="product-description">Yang jual temen nya orang nya gabut</p>
-                        <button class="view-button">VIEW</button>
+                        <a href="{{route('home.mieayam')}}"  class="view-button">VIEW</a>
                     </div>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-image">⌚</div>
+                    <img src="{{ asset('images/roti-logo.jpg') }}" alt="Ropang" class="product-image">
                     <div class="product-info">
                         <h3 class="product-name">Roti Bakar</h3>
                         <p class="product-description">Yang jual temen nya orang nya gabut</p>
-                        <button class="view-button">VIEW</button>
+                        <a href="{{route('homeKoproll')}}"  class="view-button">VIEW</a>
                     </div>
                 </div>
             </div>

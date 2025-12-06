@@ -90,7 +90,7 @@
                 <div class="order-1 md:order-2">
                     <div class="relative">
                         <div class="absolute bg-amber-100 rounded-2xl transform rotate-3"></div>
-                        <img src="{{ asset('Koproll/arioo.png') }}" alt="Owner"
+                        <img src="{{ asset('images/Koproll-logo.png') }}" alt="Owner"
                             class="relative rounded-2xl shadow-2xl w-full object-cover h-[35rem]">
                     </div>
                 </div>
