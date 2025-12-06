@@ -9,6 +9,6 @@ class ropangController extends Controller
 {
     public function ropang ()
     {
-        return view ('ropanghome');
+        return view ('ropang');
     }
 }

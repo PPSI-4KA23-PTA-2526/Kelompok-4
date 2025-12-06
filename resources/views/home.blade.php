@@ -360,12 +360,7 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <h1>WELCOME TO WARUNG POJOK</h1>
-        <p>Temukan produk terbaik dengan kualitas premium dan harga terjangkau</p>
-        <button class="cta-button">SCROLL</button>
-    </section>
+ @include('HeroSection.banner')
 
     <!-- Products Section -->
     <section id="products" class="products-section">
